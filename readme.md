@@ -9,7 +9,7 @@ Funcionalidades necessárias:
 - Cadastrar novas tarefas (x)
 - Concluir tarefas (x)
 - Deletar tarefas (x)
-- Mostrar a quantidade de tarefas necessárias ( )
+- Mostrar a quantidade de tarefas necessárias (x)
 
 Funcionalidades opcionais:
 - Filtrar tarefas por Concluídas, Abertas e Todas ( )

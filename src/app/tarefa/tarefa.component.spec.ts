@@ -8,9 +8,8 @@ describe('TarefaComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [TarefaComponent]
-    })
-      .compileComponents();
+      declarations: [TarefaComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

@@ -9,8 +9,7 @@
 
   <body>
     <div class="input_container">
-      <h2>Lista de Tarefas</h2>
-      
+      <h1>Lista de Tarefas</h1>
       <input
         type="text"
         placeholder="Nova Tarefa"
@@ -26,19 +25,11 @@
           <div (click)="completar(tarefa.id)">
             {{ tarefa.nome }}
             <i *ngIf="tarefa.concluida" class="material-icons"> done </i>
-            <!--<i *ngIf="tarefa.concluida"> <del>{{tarefa.nome}}</del></i>-->
-
-            <!--<ng-template [ngIf]="tarefa.concluida" [ngIfElse]="tarefa.nome">
-                        <div><del>{{tarefa.nome}}</del></div>
-                    </ng-template>
-
-                    <ng-template #tarefa.nome>
-                        <div>{{tarefa.nome}}</div>
-                    </ng-template>-->
           </div>
         </li>
         <i (click)="deletar(tarefa.id)" class="material-icons">delete</i>
       </ul>
+      <p class="concluidos">Quantidade de tarefas concluídas: {{ contConcluida() }}</p>
     </div>
   </body>
 </html>

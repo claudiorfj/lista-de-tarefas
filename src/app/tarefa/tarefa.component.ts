@@ -36,6 +36,9 @@ export class TarefaComponent implements OnInit {
     }
   }
 
+  contConcluida = () =>
+    this.listaTarefas.filter((listaTarefas) => listaTarefas.concluida).length;
+
   deletar(id: number) {
     this.listaTarefas = this.listaTarefas.filter((item) => item.id != id);
     this.salvarLista();
