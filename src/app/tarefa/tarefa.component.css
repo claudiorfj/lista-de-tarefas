@@ -47,7 +47,7 @@ button {
   height: 40px;
   width: 50px;
   border-radius: 5px;
-  background-color: rgb(96, 100, 128);
+  background-color: rgb(84, 87, 110);
   color: rgb(248, 248, 242);
   border: none;
   cursor: pointer;
@@ -55,7 +55,7 @@ button {
 
 button:hover {
   background-color: rgb(115, 91, 150);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 ul {
@@ -67,18 +67,16 @@ ul {
 ul li {
   list-style-type: none;
   padding-bottom: 4px;
-  background-color: rgb(96, 100, 128);
+  background-color: rgb(84, 87, 110);
   padding: 4px;
   height: 20px;
   width: 250px;
   border-radius: 5px;
-  font-weight: bold;
   margin-bottom: 5%;
   margin-right: 5%;
   font-family: "Crimson Pro", serif;
   font-size: 22px;
   color: rgb(248, 248, 242);
-  opacity: 70%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -86,7 +84,7 @@ ul li {
 
 ul li:hover {
   background: rgb(115, 91, 150);
-  transition: 1s;
+  transition: 0.5s;
   cursor: pointer;
 }
 

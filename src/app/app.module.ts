@@ -7,7 +7,8 @@ import { TarefaComponent } from './tarefa/tarefa.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TarefaComponent
+    TarefaComponent,
+    
   ],
   imports: [
     BrowserModule
