@@ -19,7 +19,7 @@ h1 {
 .input_container {
   background-color: rgb(40, 42, 54);
   width: 400px;
-  height: 500px, auto;
+  height: auto;
   margin: auto;
   border-radius: 10px;
 }
